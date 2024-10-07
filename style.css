@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: purple;
+  display: grid;
+  place-items: center;
+}
+
+#game .cell{
+width: 100px;
+height: 100px;
+display: grid;
+place-items: center;
+border: 2px solid purple;
+border-radius: 10px;
+float: left;
+
+}
+
+#game{
+  width:300px;
+  text-align: center;
+}
+
+#restart {
+  position: relative;
+background-color: transparent;
+top: -70%;
+color: purple;
+border:3px solid purple;
+height: 70px;
+width: 150px;
+border-radius: 8px;
+cursor:pointer;
+transition: all 0.4s ease-out
+}
+
+#restart:hover {
+  background-color: purple;
+  color: white;
+}
